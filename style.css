@@ -1,0 +1,34 @@
+body {
+    background: #1397D5;
+    color: #eeeeee;
+    font-family: sans-serif;
+    padding: 5% 30%;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+li {
+    margin: 0;
+    padding: 5px;
+    border-bottom: 1px solid #0A5375;
+}
+
+li:first-child {
+    border-top: 1px solid #0A5375;
+    font-size: 150%;
+}
+
+li.noone {
+    background: #39AC88;
+}
+
+li.noone.weekend {
+    background: #3988AC;
+}
